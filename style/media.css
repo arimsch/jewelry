@@ -6,9 +6,17 @@
     }
     .nav-line {
         margin-top: 4.125em;
+        /* margin-top: 66px; */
     }
     .nav-items a {
         margin-left: 4.75em;
+    }
+    /* recomend */
+    .recomend {
+        margin-top: 65px;
+    }
+    .recomend__cards {
+        margin-top: 20px;
     }
 }
 
@@ -16,9 +24,24 @@
 /* 768 */
 
 @media (max-width:48em) {
+    h2 {
+        font-size: 1.625rem;
+        line-height: 1.1923em;
+        text-transform: uppercase;
+    }
     .content {
         max-width: 44.125em;
         padding: 0 1.9375em;
+    }
+    .order-block {
+        height: 162px;
+    }
+    .order-block__inner {
+        padding: 37px 0 59px 66px;
+    }
+    /* recomend */
+    .recomend {
+        margin-top: 55px;
     }
 }
 
@@ -26,6 +49,10 @@
 /* 414 */
 
 @media (max-width:25.875em) {
+    h1 {
+        font-size: 1.125rem;
+        line-height: 1.2222;
+    }
     .content {
         max-width: 21.75em;
         padding: 0 2.0625em;
@@ -55,12 +82,24 @@
         display: flex;
         justify-content: space-between;
     }
-    /* !add star! */
-    .order-block__inner {
-        padding: 0;
+    /* !!!!!!!!!!!!add star! */
+    /* order-block */
+    .order-block {
+        margin-top: 42.45px;
         display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        align-content: center;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .order-block__inner {
+        padding: 0 60px;
+    }
+    .order-block__inner>p {
+        font-size: 0.875rem;
+        line-height: 17px;
+    }
+    /* recomend */
+    .recomend {
+        margin-top: 40px;
     }
 }

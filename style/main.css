@@ -34,7 +34,7 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 0.97em;
+    line-height: 1.219em;
     text-transform: uppercase;
 }
 
@@ -191,7 +191,7 @@ p {
 /* order-block */
 
 .order-block {
-    height: 12.25em;
+    height: 196px;
     border: 1px solid var(--black);
     background-color: var(--main-back);
     border-radius: 10px;
@@ -207,28 +207,46 @@ p {
 }
 
 .order-block__inner p {
-    font-size: 1.125em;
+    font-size: 1.125rem;
 }
 
 
 /* recomend */
 
 .recomend {
-    margin-top: 2.03em;
+    margin-top: 2.563em;
 }
 
 .carusel {
-    position: relative;
+    /* position: relative; */
 }
 
 .recomend__cards {
-    display: inline - block;
+    margin-top: 1.875em;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
 }
 
+
+/* .recomend__cards ::after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 1.2em;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 59.45%);
+    pointer-events: none;
+} */
+
 .card {
+    display: inline-block;
     width: 245px;
     height: 365px;
-    background-color: #FBFBFB;
+    margin-right: 25px;
+    background-color: var(--main-back);
     border-radius: 10px;
 }
 
@@ -242,11 +260,15 @@ p {
 }
 
 .card__cont--name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 45px;
-    border: 2px solid #000000;
+    /* border: 2px solid #000000; */
 }
 
-.card__cont h2 {
+.card__cont>h2 {
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.375;
@@ -264,9 +286,9 @@ p {
 }
 
 .card__footer>p {
-    font-style: italic;
+    font-family: 'Montserrat', italic;
     font-weight: 500;
-    font-size: 1.125em;
+    font-size: 1.17em;
     line-height: 1.28;
 }
 

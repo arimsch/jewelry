@@ -11,7 +11,10 @@
     <title>корзина</title>
 </head>
 
+<!-- страница корзина, main.css под 1440px -->
+
 <body>
+    <!-- Полоска "античный минимализм 50%" -->
     <article class="promo-line">
         <div class="promo-line__inner">
             античный минимализм 50%<img src="./img/icons/star.svg">античный минимализм 50%<img src="./img/icons/star.svg">античный минимализм 50%<img src="./img/icons/star.svg">античный минимализм 50%<img src="./img/icons/star.svg">античный минимализм
@@ -25,6 +28,7 @@
     </article>
 
     <div class="content">
+        <!-- header logo и меню -->
         <nav class="nav-container">
             <div class="nav-container__inner">
                 <button class="nav-button">
@@ -40,6 +44,7 @@
             </div>
         </nav>
 
+        <!-- Путь "Главная > корзина" -->
         <div class="nav-line">
             <div class="nav-line-path">
                 <a href="#">Главная</a> >
@@ -49,13 +54,13 @@
                 <h2>корзина</h2>
             </div>
         </div>
-
+        <!-- Меню страниц блока "Корзина-избранное-заказы" -->
         <div class="nav-items">
             <a href="#"><span>корзина</span></a>
             <a href="#">избранное</a>
             <a href="#">заказы</a>
         </div>
-
+        <!-- Содержимое корзины -->
         <div class="order-block">
             <div class="order-block__inner">
                 <h1>Ваша корзина пуста</h1>
@@ -63,18 +68,69 @@
                     <a href="#"><span>Каталога</span></a></p>
             </div>
         </div>
+        <!-- Вам может понравится (название блока + карды) -->
         <div class="recomend">
             <h2>Вам может понравиться</h2>
 
             <div class="carousel">
                 <div class="recomend__cards">
+                    <!-- карда1 -->
+                    <div class="card">
+                        <div class="card__cont">
+                            <div class="card__cont--name">
+                                <div class="inner-name">
+                                </div>
+                            </div>
+                            <img src="./img/cards/item/i_1.png">
+                            <h2>какая-то<br> штука</h2>
+                        </div>
+                        <!-- нижняя полоска из 3-ёх элементов -->
+                        <div class="card__footer">
+                            <img src="./img/cards/icons/save.svg">
+                            <p>2 300 P</p>
+                            <img src="./img/cards/icons/det.svg">
+                        </div>
+                    </div>
+                    <!-- карда 2 -->
                     <div class="card">
                         <div class="card__cont">
                             <div class="card__cont--name">
                                 <img src="./img/cards/name/name_av.svg">
                             </div>
-                            <img src="./img/cards/item/i_1.png">
-                            <h2>какая-то<br> штука</h2>
+                            <img src="./img/cards/item/i_2.png">
+                            <h2>кость-трость</h2>
+                        </div>
+                        <div class="card__footer">
+                            <img src="./img/cards/icons/save.svg">
+                            <p>2 300 P</p>
+                            <img src="./img/cards/icons/det.svg">
+                        </div>
+                    </div>
+
+                    <!-- карда 3 -->
+                    <div class="card">
+                        <div class="card__cont">
+                            <div class="card__cont--name">
+                                <img src="./img/cards/name/name_av.svg">
+                            </div>
+                            <img src="./img/cards/item/i_2.png">
+                            <h2>кость-трость</h2>
+                        </div>
+                        <div class="card__footer">
+                            <img src="./img/cards/icons/save.svg">
+                            <p>2 300 P</p>
+                            <img src="./img/cards/icons/det.svg">
+                        </div>
+                    </div>
+
+                    <!-- карда 4 -->
+                    <div class="card">
+                        <div class="card__cont">
+                            <div class="card__cont--name">
+                                <img src="./img/cards/name/name_av.svg">
+                            </div>
+                            <img src="./img/cards/item/i_2.png">
+                            <h2>кость-трость</h2>
                         </div>
                         <div class="card__footer">
                             <img src="./img/cards/icons/save.svg">
