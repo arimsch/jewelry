@@ -82,7 +82,14 @@
         display: flex;
         justify-content: space-between;
     }
-    /* !!!!!!!!!!!!add star! */
+    .nav-items a {
+        margin-left: 0;
+    }
+    .nav-items::after {
+        content: url(/img/icons/star_small.svg);
+        top: -10px;
+        right: -20px;
+    }
     /* order-block */
     .order-block {
         margin-top: 42.45px;
