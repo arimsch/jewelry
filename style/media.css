@@ -46,6 +46,16 @@
 }
 
 
+/* В макете при 421 некорректно отображается блок корзины с установлеными размерами шрифта */
+
+@media (max-width:26.875em) {
+    h1 {
+        font-size: 1.125rem;
+        line-height: 1.2222;
+    }
+}
+
+
 /* 414 */
 
 @media (max-width:25.875em) {
@@ -54,7 +64,7 @@
         line-height: 1.2222;
     }
     .content {
-        max-width: 21.75em;
+        /* max-width: 21.75em; */
         padding: 0 2.0625em;
     }
     /* nav-line */
@@ -108,5 +118,37 @@
     /* recomend */
     .recomend {
         margin-top: 40px;
+    }
+    .recomend>h2 {
+        text-align: center;
+    }
+    .recomend__cards {
+        margin-top: 20px;
+    }
+    .card {
+        width: 308.79px;
+        height: 460px;
+        margin-right: 8.22px;
+    }
+    .card__cont {
+        padding: 0.9975em 1.341em 0;
+        height: 392.69px;
+    }
+    .card__cont--name {
+        height: 65px;
+    }
+    .card__cont>h2 {
+        font-size: 1.5756rem;
+        line-height: 1.1;
+    }
+    .card__footer {
+        padding: 0.9975em 1.341em 0;
+    }
+    .card__footer>p {
+        font-size: 1.465em;
+        line-height: 1.219;
+    }
+    .recomend-scroll {
+        margin-top: 6px;
     }
 }
