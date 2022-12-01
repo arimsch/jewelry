@@ -18,6 +18,13 @@
     .recomend__cards {
         margin-top: 20px;
     }
+    /* photos */
+    .column-left {
+        margin-left: -272px;
+    }
+    .column-right {
+        margin-right: -275px;
+    }
 }
 
 
@@ -42,6 +49,13 @@
     /* recomend */
     .recomend {
         margin-top: 55px;
+    }
+    /* photos */
+    .column-left {
+        margin-left: -400px;
+    }
+    .column-right {
+        margin-right: -400px;
     }
 }
 

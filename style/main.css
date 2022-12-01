@@ -320,21 +320,28 @@ p {
 /* photos */
 
 .photos {
-    margin-top: 7em;
+    margin-top: 5.9375em;
     display: grid;
-    grid-template-columns: 1fr 576px 1fr;
-}
-
-.column-2 {
-    padding: 0 1.375em;
-    margin-top: 0;
+    grid-template-columns: 1fr 530px 1fr;
+    grid-gap: 0 1.375em;
+    overflow: hidden;
+    height: 592px;
 }
 
 .photos>.column-1 img {
-    display: block;
-    /* object-fit: cover; */
-    object-fit: fill;
     height: 576px;
+    margin-top: 1em;
+    width: 500px;
+}
+
+.column-left {
+    position: relative;
+    margin-left: -67px;
+}
+
+.column-right {
+    position: relative;
+    margin-right: -67px;
 }
 
 
