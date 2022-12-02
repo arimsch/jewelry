@@ -308,6 +308,10 @@
     }
     /* photos */
     
+    .photos-mobile {
+        display: none;
+    }
+    
     .photos {
         margin-top: 5.9375em;
         display: grid;
