@@ -25,6 +25,16 @@
     .column-right {
         margin-right: -275px;
     }
+    /* footer */
+    .footer__inner {
+        left: -214px
+    }
+    .footer-inform {
+        left: 351px;
+    }
+    .footer-inform-input {
+        min-width: 500px;
+    }
 }
 
 
@@ -57,15 +67,34 @@
     .column-right {
         margin-right: -400px;
     }
+    .recomend__cards::after {
+        display: none;
+    }
+    /* footer */
+    .footer__inner {
+        left: -342px;
+    }
+    .footer-inform {
+        left: 458px;
+    }
+    .footer-inform-input {
+        min-width: 300px;
+    }
 }
 
 
 /* В макете при 421 некорректно отображается блок корзины с установлеными размерами шрифта */
 
-@media (max-width:26.875em) {
+@media (max-width:34em) {
     h1 {
         font-size: 1.125rem;
         line-height: 1.2222;
+    }
+    .footer__inner {
+        left: -440px;
+    }
+    .footer-inform>p {
+        max-width: 280px;
     }
 }
 
@@ -164,5 +193,60 @@
     }
     .recomend-scroll {
         margin-top: 6px;
+    }
+    /* footer */
+    footer {
+        background-color: #91A86B;
+    }
+    .footer__inner {
+        height: 850px;
+        left: 0;
+    }
+    .letters-v {
+        width: 101.33px;
+        height: 94.14px;
+        top: 83px;
+    }
+    .letters-e {
+        top: 83px;
+        left: 208px;
+        width: 66.86px;
+        height: 93.69px;
+    }
+    .letters-f {
+        top: 259px;
+        left: 100px;
+        width: 62.36px;
+        height: 93.69px;
+    }
+    .letters-a {
+        top: 259px;
+        left: 316px;
+        width: 105.98px;
+        height: 95.49px;
+    }
+    .letters-t {
+        top: 467px;
+        left: -31px;
+        width: 83.95px;
+        height: 98.04px;
+    }
+    .letters-s {
+        top: 467px;
+        left: 180px;
+        width: 55.34px;
+        height: 97.14px;
+    }
+    .letters-o {
+        top: 467px;
+        left: 319px;
+        width: 100.13px;
+        height: 97.14px;
+    }
+    .el-mobile {
+        display: block;
+        position: absolute;
+        left: 23px;
+        top: 657px;
     }
 }

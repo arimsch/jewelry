@@ -332,3 +332,100 @@
         position: relative;
         margin-right: -67px;
     }
+    /* footer */
+    
+    footer {
+        background-color: var(--brand-green);
+        overflow: hidden;
+    }
+    
+    .footer__inner {
+        height: 960px;
+        width: 1444px;
+        position: relative;
+    }
+    
+    [class*="letters-"] {
+        position: absolute;
+    }
+    
+    .letters-v {
+        top: 142px;
+    }
+    
+    .letters-f {
+        top: 142px;
+        left: 392.54px;
+    }
+    
+    .letters-a {
+        top: 142px;
+        left: 778.05px;
+    }
+    
+    .letters-t {
+        top: 142px;
+        left: 992px;
+    }
+    
+    .letters-e {
+        top: 592.91px;
+        left: 144.78px;
+    }
+    
+    .letters-s {
+        top: 592.91px;
+        left: 1012.17px;
+    }
+    
+    .letters-o {
+        top: 592.91px;
+        left: 1359.68px;
+    }
+    
+    .el-mobile {
+        display: none;
+    }
+    
+    .footer-inform {
+        position: absolute;
+        left: 240px;
+        top: 386px;
+        text-transform: uppercase;
+    }
+    
+    .footer-inform>p {
+        width: 406px;
+        font-size: 0.875rem;
+        line-height: 1.2193;
+        font-weight: 400;
+    }
+    
+    .bold-text {
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .footer-inform-input {
+        margin-top: 2.8125em;
+        min-width: 700px;
+    }
+    
+    input {
+        font-size: 1.625rem;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        line-height: 1.2308;
+    }
+    
+    .footer-inform-input button {
+        float: right;
+    }
+    
+    .line {
+        margin-top: 0.71875em;
+        width: 100%;
+        height: 0px;
+        border: 1px solid #000000;
+        background-color: var(--black);
+    }
