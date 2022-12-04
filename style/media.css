@@ -105,10 +105,13 @@
 
 /* В макете при 421 некорректно отображается блок корзины с установлеными размерами шрифта */
 
-@media (max-width:34em) {
+@media (max-width:34.5em) {
     h1 {
         font-size: 1.125rem;
         line-height: 1.2222;
+    }
+    .photos {
+        grid-gap: 0 0;
     }
 }
 
