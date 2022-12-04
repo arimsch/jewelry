@@ -26,14 +26,17 @@
         margin-right: -275px;
     }
     /* footer */
-    .footer__inner {
-        left: -214px
+    .footer-back {
+        left: -214px;
+        right: -214px;
     }
     .footer-inform {
-        left: 351px;
+        margin-top: 386px;
+        padding: 0 220px 0 205px;
+        /* margin: 386px 220px 0 205px; */
     }
-    .footer-inform-input {
-        min-width: 500px;
+    .footer-nav {
+        margin: 376px 83px 0 83px;
     }
 }
 
@@ -71,14 +74,31 @@
         display: none;
     }
     /* footer */
-    .footer__inner {
+    .footer-back {
         left: -342px;
+        right: -342px;
     }
     .footer-inform {
-        left: 458px;
+        margin-top: 386px;
+        padding: 0 116px 0 108px;
+        /* margin: 386px 116px 0 108px; */
     }
-    .footer-inform-input {
-        min-width: 300px;
+    .footer-nav {
+        margin: 376px 32px 0 32px;
+    }
+}
+
+
+/* точка, в которой ломается футер */
+
+@media (max-width:42em) {
+    .footer-nav {
+        margin: 235px 259px 0 240px;
+    }
+    .footer-nav__inner {
+        height: 161px;
+        flex-direction: column;
+        text-align: right;
     }
 }
 
@@ -89,12 +109,6 @@
     h1 {
         font-size: 1.125rem;
         line-height: 1.2222;
-    }
-    .footer__inner {
-        left: -420px;
-    }
-    .footer-inform>p {
-        max-width: 280px;
     }
 }
 
@@ -230,10 +244,11 @@
     /* footer */
     footer {
         background-color: #91A86B;
-    }
-    .footer__inner {
         height: 850px;
+    }
+    .footer-back {
         left: 0;
+        right: 0;
     }
     .letters-v {
         width: 101.33px;
@@ -281,5 +296,29 @@
         position: absolute;
         left: 23px;
         top: 657px;
+    }
+    .footer-text {
+        height: 850px;
+    }
+    .footer-inform {
+        margin-top: 199px;
+        padding: 0 33px 0 33px;
+    }
+    .footer-inform>p {
+        max-width: 280px;
+    }
+    input {
+        max-width: 80px;
+    }
+    .footer-inform-input {
+        margin-top: 150px;
+    }
+    .footer-nav {
+        margin: 185px 33px 83px 0;
+    }
+    .footer-nav__inner {
+        height: 161px;
+        flex-direction: column;
+        text-align: right;
     }
 }
